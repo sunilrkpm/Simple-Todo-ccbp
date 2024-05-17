@@ -1,0 +1,36 @@
+/* Write your CSS here */
+.todo-bg-container {
+  background-color: #ffc2a0;
+  width: 100%;
+  padding: 20px;
+}
+.empty-contianer {
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.todo-container {
+  background-color: #fff;
+  width: 100%;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 25vh;
+}
+
+.todo-list-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 90%;
+}
+@media screen and (min-width: 756px) {
+  .todo-list-container {
+    width: 70%;
+  }
+}
